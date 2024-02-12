@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Protest+Riot&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(rgb(197, 248, 255), rgb(133, 241, 255), rgb(197, 248, 255));
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 96vh;
+    padding: 30px;
+    width: 96vw;
+    border-radius: 10px;
+}
+
+.sales-hold {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    color: black;
+}
+
+.sales-hold p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: large;
+}
+
+.sales-hold h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 38px;
+}
+
+.sales {
+    padding: 28px 0px;
+    background-color: white;
+    width: 24%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.visit-count {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.visits {
+    width: 49.5%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.visits p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.visits h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.graph-hold {
+    height: 65%;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.graph-hold h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 350;
+    font-size: 24px;
+}
+
+.graphs {
+    width: 90%;
+    height: 70%;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.graph-em:nth-child(1) {
+    background-color: red;
+    width: 10%;
+    height: 10%;
+}
+
+.graph-em:nth-child(2) {
+    background-color: lightskyblue;
+    width: 10%;
+    height: 20%;
+}
+
+.graph-em:nth-child(3) {
+    background-color: lightskyblue;
+    width: 10%;
+    height: 50%;
+}
+
+.graph-em:nth-child(4) {
+    background-color: red;
+    width: 10%;
+    height: 30%;
+}
+
+.graph-em:nth-child(5) {
+    background-color: lightskyblue;
+    width: 10%;
+    height: 50%;
+}
+
+.graph-em:nth-child(6) {
+    background-color: lightgreen;
+    width: 10%;
+    height: 80%;
+}
+
+.graph-em:nth-child(7) {
+    background-color: lightgreen;
+    width: 10%;
+    height: 70%;
+}
+
+.indicators {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.red {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.green {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.blue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.redball {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.greenball {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: lightgreen;
+}
+
+.blueball {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: lightskyblue;
+}
